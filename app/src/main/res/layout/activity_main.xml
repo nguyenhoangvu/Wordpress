@@ -1,14 +1,182 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="10dp"
     tools:context=".MainActivity">
-
-
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="10dp">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"></LinearLayout>
-</FrameLayout>
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="ALEXIS KANDA-OMLSTEAD"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="TEACHING WOMEN TO LIVE, WORK AND LEAD BRAVELY"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="HOME"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="161dp"
+        android:layout_marginTop="110dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/workshop1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp">
+
+        <TextView
+            android:layout_width="404dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="WELCOM"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp">
+
+        <TextView
+            android:layout_width="404dp"
+            android:layout_height="wrap_content"
+            android:text="I have good news. You are already brave. To show up as a woman in this world takes courage and persistence. Every. Single. Day.
+                \nBut women’s bravery has focused on the wrong things. Time-saving gimmicks and self-help books are great, but they do not change the world around us.
+                \nWomen need to be brave in new ways. We need to stop blaming and shaming ourselves. We need to quit trying to fix ourselves.
+                \nAKO Collective is for women like you. Women who want to thrive, not just survive. Women who are ready to be brave.
+                \nI have taught and mentored women for more than 20 years. I care deeply about women’s personal and professional success. I care about you. And as a mother to a little girl, I care about the next generation. They are counting on us to be brave for them.
+                \nAKO Collective offers public workshops as well as private trainings and keynotes for businesses. You can work directly with me to customize an experience that works for you or your organization." 
+            />
+
+    </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="690dp">
+
+          <TextView
+              android:layout_width="350dp"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:textStyle="bold"
+              android:textSize="20sp"
+              android:text="PUBLIC WORKSHOPS"
+              />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="161dp"
+          android:layout_marginTop="720dp">
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              app:srcCompat="@drawable/workshop1" />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="880dp">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="AKO Collective offers live and online workshops to the public. Each registration includes a free ticket for a friend. Women learn best in community, and I want you to bring yours with you!"
+              />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="960dp">
+
+          <TextView
+              android:layout_width="350dp"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:textStyle="bold"
+              android:textSize="15sp"
+              android:text="PRIVATE TRAININGS And KEYNOTES"
+              />
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="161dp"
+          android:layout_marginTop="980dp">
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              app:srcCompat="@drawable/img_4259" />
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="1150dp">
+
+          <TextView
+              android:layout_width="350dp"
+              android:layout_height="wrap_content"
+              android:text="I have trained and taught thousands of students, faculty, and staff. You can work with me to develop a customized training for your organization or invite me to keynote at your next event. My areas of expertise include women’s development, diversity and inclusion, leadership, and organizational change."
+              />
+      </LinearLayout>
+  </FrameLayout>
+</ScrollView>
